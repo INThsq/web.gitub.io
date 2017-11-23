@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+
+.header li a:hover,.header li:nth-of-type(5) a{background: #5c5c5c}
+/*.header ul:hover li a{background: #333}*/
+.header ul li a:hover{background: #5c5c5c}
+
+
+
+.guide{
+    width: 670px;
+    margin-bottom: 93px;
+}
+.guide div{
+    margin-bottom: 27px;
+}
+
+.guide h2{
+    font-size: 24px;
+    color: #222222;
+    margin-bottom: 23px;
+}
+.guide h3{
+    font-size: 16px;
+    color: #fa9634;
+}
+.guide p{
+    line-height: 25px;
+    text-indent: 2em;
+    font-size: 16px;
+}
+
+
+/*sidebar 开始*/
+
+.sidebar ul li:first-of-type:hover i{
+-ms-background-position-y: -66px;
+background-position-y: -66px ;
+}
+.sidebar ul li:nth-last-of-type(2):hover i{
+background-position-y: -202px;
+}
+
+.sidebar ul li:hover,.sidebar ul li:last-of-type{
+    border-bottom-color: #fa9634;
+}
+.sidebar ul li:last-of-type i{
+    background-position-y: -338px;
+}
+/*.sidebar ul:hover li{*/
+    /*border-bottom-color:transparent;*/
+/*}*/
+.sidebar ul li:hover{
+    border-bottom-color: #fa9634;
+}
+
+/*返回顶部*/
+.to-top {
+    display: none;
+    width: 50px;
+    height: 50px;
+    background: url("../../../img/top.png") no-repeat;
+}

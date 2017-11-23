@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+
+
+.header{
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    display: block;
+
+}
+
+.header li a:hover,.header li:nth-of-type(2) a{background: #5c5c5c}
+/*.header ul:hover li a{background: #333}*/
+.header ul li a:hover{background: #5c5c5c}
+
+
+.footer{
+    width: 100%;
+    height: 187px;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+}
+
+
+
+.width{
+    width: 1000px;
+    margin: 0 auto;
+    /*padding-top: 40px;*/
+}
+
+
+/*=============================== 校园概况 开始 ============================*/
+
+.condition{
+    margin: 25px auto 73px;
+    /*height: 884px;*/
+    padding-top: 1px;
+}
+.condition .sidebar{
+    width: 250px;
+    height: 160px;
+    border-right: 1px solid #bbbbbb;
+    padding-right: 15px;
+    margin-top: 15px;
+}
+.condition .sidebar li {
+    text-align: center;
+    font-size: 21px;
+    height: 77px;
+    border-bottom:3px solid transparent ;
+}
+.condition .sidebar li:hover{
+    border-bottom-color:  #fa9634;
+}
+.condition .sidebar li a{
+    padding-left: 40px;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 77px;
+    color: #222222;
+    position: relative;
+}
+.condition .sidebar li i{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background:url("../img/sidebar-icon.png") no-repeat;
+    position: absolute;
+    top: 15px;
+    left: -15px;
+}
+.condition .sidebar li:first-of-type:hover i{
+-ms-background-position-y: -70px;
+background-position-y: -70px ;
+}
+.condition .sidebar li:last-of-type i{
+    -ms-background-position-y: -140px;
+    background-position-y: -140px ;
+}
+/*.condition .sidebar li:last-of-type:hover i{*/
+/*background-position-y: -207px;*/
+/*}*/
+.condition .content2,
+.condition .content1{
+    width: 670px;
+    height: 885px;
+    /*background: #d1d1d1;*/
+    top: 0;
+    right: 0;
+}
+.condition .content1 p{
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+}
+.condition .content1 img{
+    display:block;
+    width: 223px;
+    height: 160px;
+    margin: 13px 0 24px;
+    float: left;
+}
+
+
+
+/*=============================== 校园概况 结束 ============================*/
+
+
+/*=============================== 合作院校 开始 ============================*/
+
+.content2{}
+.content2 li{
+    margin-bottom: 9px;
+}
+.content2 h3{
+    color: #fa9634;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.content2 p{
+    line-height: 30px;
+    font-size: 16px;
+    color: #000;
+}
+
+
+
+
+/*=============================== 合作院校 结束 ============================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*index2 sidebar 开始*/
+
+.condition .sidebar li:hover,.sidebar li:last-of-type{
+    border-bottom-color:  #fa9634;
+}
+.condition .sidebar li:last-of-type i{
+    background-position-y: -207px;
+}
+
+/*.condition .sidebar:hover li{*/
+    /*border-bottom-color:transparent;*/
+/*}*/
+.condition .sidebar li:hover{
+    border-bottom-color:  #fa9634;
+}
+
+/*返回顶部*/
+.to-top {
+    display: none;
+    width: 50px;
+    height: 50px;
+    background: url("../../img/top.png") no-repeat;
+}

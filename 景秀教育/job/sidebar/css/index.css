@@ -1,0 +1,83 @@
+@charset "UTF-8";
+.header{
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 40px;
+
+}
+.footer{
+    width: 100%;
+    height: 187px;
+    overflow: hidden;
+    display: block;
+}
+
+
+
+.width{
+    width: 1000px;
+    margin: 0 auto;
+    /*padding-top: 40px;*/
+}
+
+
+/*============================================== sidebar 开始 =====================================*/
+
+.sidebar{
+
+}
+.sidebar ul{
+    width: 265px;
+    height: 240px;
+    border-right: 1px solid #bbbbbb;
+    text-align: center;
+}
+.sidebar ul li{
+    width: 265px;
+    height: 77px;
+    line-height: 77px;
+    border-bottom: 3px solid transparent;
+}
+.sidebar ul li a{
+    position: relative;
+    font-size: 24px;
+    color: #222222;
+    text-decoration: none;
+    padding-left: 69px;
+}
+.sidebar ul li:hover{
+    border-bottom-color: #fa9634;
+}
+.sidebar ul li a i{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../img/sidebar-icon.png") no-repeat;
+    position: absolute;
+    top: -4px;
+    left: 0;
+}
+/*.sidebar ul li:first-of-type:hover i{*/
+    /*-ms-background-position-y: -66px;*/
+    /*background-position-y: -66px ;*/
+/*}*/
+.sidebar ul li:nth-last-of-type(2) i{
+    background-position-y: -132px;
+}
+/*.sidebar ul li:nth-last-of-type(2):hover i{*/
+    /*background-position-y: -202px;*/
+/*}*/
+.sidebar ul li:last-of-type i{
+    background-position-y: -272px;
+}
+/*.sidebar ul li:last-of-type:hover i{*/
+    /*background-position-y: -338px;*/
+/*}*/
+
+
+
+
+
+/*============================================== sidebar 结束 =====================================*/

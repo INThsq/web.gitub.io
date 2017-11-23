@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>景秀教育</title>
+    <link rel="stylesheet" href="../../css/public.css"/>
+    <link rel="stylesheet" href="../../css/reset.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="../siderbar/css/index.css"/>
+    <link rel="stylesheet" href="../../header/css/header.css"/>
+    <link rel="shortcut icon" href="../../img/logo.ico" type="image/x-icon"/>
+
+</head>
+<body>
+
+
+
+
+<!--<iframe src="../../header/header.html" frameborder="0" scrolling="no" class="header"></iframe>-->
+
+
+<!--头部 开始-->
+<header class="header">
+    <div class="width clearfix">
+        <a href=""  class="pull-left">  <img src="../../header/img/headerlogo.png" alt="" class="show"/></a>
+        <nav class="pull-right">
+            <ul class="clearfix">
+                <li class="pull-left"><a href="../../index.html" target="_parent">首页</a></li>
+                <li class="pull-left"><a href="../../condition/index.html" target="_parent">学院概况</a></li>
+                <li class="pull-left"><a href="" target="_parent">课程设置</a></li>
+                <li class="pull-left"><a href="../../collection/scenery/index.html" target="_parent">校园风采</a></li>
+                <li class="pull-left"><a href="../../job/service/index.html" target="_parent">就业中心</a></li>
+                <li class="pull-left"><a href="../../power/index.html" target="_parent">师资力量</a></li>
+                <li class="pull-left"><a href="../../enroll/apply/index.html" target="_parent">招生指南</a></li>
+                <li class="pull-left"><a href="../../us/index.html" target="_parent">联系我们</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!--头部 结束-->
+
+<div class="width">
+    <!--侧边栏 开始-->
+    <nav class="sidebar clearfix pull-left">
+        <ul class="pull-left">
+            <li>
+                <a href="../scenery/index.html" target="_parent"><i></i>校园风景</a>
+            </li>
+            <li>
+                <a href="../production/index.html" target="_parent"><i></i>学员作品</a>
+            </li>
+            <li>
+                <a href="../colorful/index.html" target="_parent"><i></i>多彩生活</a>
+            </li>
+        </ul>
+
+    </nav>
+    <!--侧边栏 结束-->
+
+  <div class="pull-left banner">
+      <!--banner 开始-->
+      <div class="dowebok" >
+          <ul class="slides">
+              <li><a href="" target="_blank"><img src="img/p1.jpg" alt=""></a>
+              <li><a href="" target="_blank"><img src="img/p2.jpg" alt=""></a>
+              <li><a href="" target="_blank"><img src="img/p3.jpg" alt=""></a>
+              <li><a href="" target="_blank"><img src="img/p4.jpg" alt=""></a>
+              <li><a href="" target="_blank"><img src="img/p1.jpg" alt=""></a>
+              <li><a href="" target="_blank"><img src="img/p6.jpg" alt=""></a>
+          </ul>
+          <ul class="slide-caption">
+              <li><a href="javascript:"><i></i></a></li>
+              <li><a href="javascript:"><i></i></a></li>
+              <li><a href="javascript:"><i></i></a></li>
+              <li><a href="javascript:"><i></i></a></li>
+              <li><a href="javascript:"><i></i></a></li>
+              <li><a href="javascript:"><i></i></a></li>
+          </ul>
+      </div>
+      <!--banner 结束-->
+
+      <p>
+          组织学员参加各种文化活动是增强凝聚力的一种有效载体。多年来，我校坚持每年组织学员参加各种文化活动。如，北京各大名胜的一日游、环境优美的郊外野营活动、学生运动会、看话剧演出。各老师精心组织、认真准备，表现出了强烈的集 体荣誉感和热情，也充分展示出广大教职工团结协作和充满活力的良好精神风貌。
+
+      </p>
+
+  </div>
+
+
+</div>
+
+
+
+<iframe src="../../footer/footer.html" frameborder="0" scrolling="no" class="footer"></iframe>
+
+<!-- js -->
+<script src="../../js/jquery.min.js"></script>
+<script src="../../js/jquery.flexslider-min.js"></script>
+
+
+
+<script>
+    $(window).load(function() {
+        $('.dowebok').flexslider({
+            animation: 'slide',
+            pauseOnHover: true,
+            directionNav: false,
+            manualControls: '.slide-caption li'
+        });
+
+        var $item = $('.slide-caption').find('li');
+        $item.each(function(i) {
+            var $this = $(this);
+            $this.on('mouseenter', function() {
+                $this.trigger('click');
+            });
+        });
+    });
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+
+.textin69{text-indent: 69px}
+.textin62{text-indent: 62px}
+
+.footer{
+    width: 100%;
+    background: #333;
+    padding: 23px 0 92px;
+
+}
+
+.footer li{
+    /*width: calc((100% - 85px * 3)/4) ;*/
+    margin-right: 85px;
+    /*text-align: right;*/
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+}
+.footer li:last-of-type{
+    margin-right: 0;
+}
+
+
+
+
+
+
+/*.footer2{*/
+    /**/
+/*}*/
+/*.footer2 li{*/
+    /*width: calc((100% - 85px * 3)/4);*/
+    /*margin-right: 85px;*/
+/*}*/
+/*.footer2 li:last-of-type{margin-right: 0}*/
+
+
+

@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+
+
+.width{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    display: block;
+    margin-bottom: 40px;
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*left: 0;*/
+
+}
+
+.footer{
+    width: 100%;
+    height: 187px;
+    overflow: hidden;
+    display: block;
+}
+
+
+.content{
+    height: 793px;
+}
+
+.sidebar{
+    position:absolute;
+    top: 0;
+    left: 0;
+    height:240px;
+}
+
+.scenery{
+    width: 684px;
+    height: 745px;
+    margin-bottom: 48px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/*.content{*/
+    /*margin: 0 auto;*/
+    /*width: 1000px;*/
+    /*height: 1223px;*/
+/*}*/
+
+/*.job{*/
+    /*width: 100%;*/
+    /*height: 240px;*/
+
+/*}*/
+
+/*.service{*/
+    /*width: 660px;*/
+    /*height: 1136px;*/
+    /*top: 0;*/
+    /*right: 0;*/
+/*}*/

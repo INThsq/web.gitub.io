@@ -1,0 +1,96 @@
+@charset "UTF-8";
+.width{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+
+}
+
+.header li a:hover,.header li:nth-last-of-type(3) a{background: #5c5c5c}
+/*.header ul:hover li a{background: #333}*/
+.header ul li a:hover{background: #5c5c5c}
+.footer{
+    width: 100%;
+    height: 187px;
+    overflow: hidden;
+    margin-top: 48px;
+}
+/*--------------------------power    开始-----------------------*/
+.teacher h1{
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    margin: 40px 0 20px 0;
+}
+.teacher > p{
+    text-align: center;
+    font-size: 24px;
+    color: #888;
+    margin-bottom: 40px;
+}
+.teacher ul li img{
+    margin-bottom: 12px;
+    position: relative;
+}
+.introduce dl{
+    bottom: 18px;
+    left: 0;
+    width: 220px;
+    height: 80px;
+    background: rgba(0,0,0,.5);
+    text-align: center;
+    color: #fff;
+}
+.introduce dt{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.introduce dl:after{
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 90px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right:20px solid transparent;
+    border-bottom: 20px solid #fff;
+    border-top: 20px solid transparent;
+}
+.teacher ul li {
+    float: left;
+    width: 220px;
+    height: 722px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #888;
+    margin: 0 40px 40px 0;
+}
+.teacher .height698{
+    height: 698px;
+}
+.teacher ul li:last-of-type{
+    height: 592px;
+    margin: 0;
+}
+.teacher ul li:nth-of-type(4n){margin-right: 0}
+.teacher ul li p:first-of-type{text-indent: 2em}
+.teacher ul li h2{
+    font-size: 18px;
+}
+/*--------------------------power    结束-----------------------*/
+
+/*返回顶部*/
+.to-top {
+    display: none;
+    width: 50px;
+    height: 50px;
+    background: url("../../img/top.png") no-repeat;
+}

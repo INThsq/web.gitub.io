@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+.sidebar{
+
+}
+.sidebar ul{
+    width: 265px;
+    height: 320px;
+    border-right: 1px solid #bbbbbb;
+    text-align: center;
+}
+.sidebar ul li{
+    width: 265px;
+    height: 77px;
+    line-height: 77px;
+    border-bottom: 3px solid transparent;
+}
+.sidebar ul li a{
+    position: relative;
+    font-size: 24px;
+    color: #222222;
+    text-decoration: none;
+    padding-left: 69px;
+}
+.sidebar ul li:hover{
+    border-bottom-color: #fa9634;
+}
+.sidebar ul li a i{
+    display: inline-block;
+    width: 55px;
+    height: 50px;
+    background: url("../img/baoming(hui).png") no-repeat;
+    position: absolute;
+    top: -4px;
+    left: 0;
+}
+/*.sidebar ul li:first-of-type:hover i{*/
+    /*-ms-background-position-y: -80px;*/
+    /*background-position-y: -80px ;*/
+/*}*/
+.sidebar ul li:nth-of-type(2) i{
+    background-position-y: -320px;
+}
+/*.sidebar ul li:nth-of-type(2):hover i{*/
+    /*background-position-y: -400px;*/
+/*}*/
+.sidebar ul li:nth-of-type(3) i{
+    background-position-y: -160px;
+}
+/*.sidebar ul li:nth-of-type(3):hover i{*/
+    /*background-position-y: -240px;*/
+/*}*/
+
+.sidebar ul li:last-of-type i{
+    background-position-y: -480px;
+}
+.sidebar ul li:last-of-type:hover i{
+    background-position-y: -560px;
+}

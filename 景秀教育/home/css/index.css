@@ -1,0 +1,468 @@
+@charset "UTF-8";
+body{
+    background: #fff;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    float: left;
+    display: block;
+}
+
+.header li a:hover,.header li:first-of-type a{background: #5c5c5c}
+/*.header ul:hover li a{background: #333}*/
+.header ul li a:hover{background: #5c5c5c}
+
+
+
+.footer{
+    width: 100%;
+    height: 187px;
+    overflow: hidden;
+    /*float: left;*/
+    display: block;
+}
+
+.width{
+    width: 1000px;
+    margin: 0 auto;
+}
+.title{
+    font-size: 28px;
+    color: #000;
+}
+.title a{
+    color: #fd9637;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/*---------------------头部 开始------------------------*/
+
+.header{
+    background: #333333;
+    height: 80px;
+}
+.header .nav li a{
+    display: inline-block;
+    line-height: 80px;
+    color: #fff;
+    padding: 0 19px;
+    text-decoration: none;
+}
+.header .nav li a:hover{
+    background: #5c5c5c;
+}
+/*---------------------头部 结束------------------------*/
+
+/*---------------------banner 开始------------------------*/
+.dowebok {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto 20px;
+    overflow: hidden;
+}
+.slides img {
+    width: 100%;
+    height: 400px;
+    /*vertical-align: top;*/
+}
+.slide-caption {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 10px;
+    font-size: 0;
+    z-index: 9;
+}
+.slide-caption li, .slide-caption a {
+    display: inline-block;
+    width:110px;
+    height:30px;
+    background: #999999;
+    box-sizing: border-box;
+    position: relative;
+}
+.slide-caption li{
+}
+.slide-caption li i{
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 10;
+}
+.slide-caption .flex-active li:before{
+    display: block;
+}
+.slide-caption li:hover, .slide-caption a:hover{background: #000}
+.slide-caption a {
+    font: 14px/50px "Microsoft Yahei";
+    color: #fa9634;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+}
+.slide-caption .flex-active a {
+    color: #000;
+    background-color: #000;
+}
+.slide-caption .flex-active i{
+    border-bottom: 20px solid #000;
+}
+
+
+/*---------------------banner 结束------------------------*/
+
+/*---------------------enroll 开始------------------------*/
+.guide{
+    /*margin-bottom: 30px;*/
+}
+.guide h2{
+   margin: 36px 0 41px;
+}
+.guide li{
+    background: url("../img/招生指南.png")  31px 6px  no-repeat;
+    width: 250px;
+    height: 80px;
+    border-bottom:5px solid transparent ;
+    box-sizing: border-box;
+    padding:13px 32px 26px 106px;
+}
+.guide li a{text-decoration: none}
+.guide li:hover{
+    border-bottom:5px solid #fa9638 ;
+}
+.guide li:first-of-type{
+    background-position-y: -74px;
+}
+.guide li:hover:first-of-type{
+    background-position-y: 6px;
+}
+.guide li:nth-of-type(2){
+    -ms-background-position-y: -242px;
+    background-position-y: -242px; ;
+}
+.guide li:hover:nth-of-type(2){
+    background-position-y:-160px;
+}
+.guide li:nth-of-type(3){
+    background-position-y: -400px ;
+}
+.guide li:hover:nth-of-type(3){
+    background-position-y:-320px;
+}
+.guide li:last-of-type{
+    background-position-y:-562px ;
+}
+.guide li:hover:last-of-type{
+    background-position-y: -480px;
+}
+.guide h3{
+    font-size: 17px;
+    color: #333;
+    margin-bottom: 7px;
+}
+.guide p{
+    font-size: 12px;
+    color: #878787;
+}
+/*---------------------enroll 结束------------------------*/
+
+/*---------------------课程设置 开始------------------------*/
+.course{
+    margin-bottom: 18px;
+}
+.course h2{
+ margin: 60px 0 29px;
+}
+.course li{
+    width: 332px;
+    height: 170px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    border-right: 0;
+    position: relative;
+}
+.course li a{text-decoration: none}
+.course li:nth-of-type(3n){
+    border-right: 1px solid #dddddd ;
+}
+
+.course li h3{
+    font-size: 19px;
+    color: #232323;
+}
+.course i{
+    display: block;
+    width: 104px;
+    height: 104px;
+    /*border-radius: 50%;*/
+    background: #ddd;
+    margin: 14px auto 18px;
+    background: url("../img/course.png") no-repeat ;
+}
+.course li:nth-of-type(2) i{background-position-y: -144px}
+.course li:nth-of-type(3) i{background-position-y: -288px}
+.course li:nth-of-type(4) i{background-position-y: -432px}
+.course li:nth-of-type(5) i{background-position-y: -576px}
+.course li:nth-of-type(6) i{background-position-y: -720px}
+.course li:nth-of-type(7) i{background-position-y: -864px}
+.course li:nth-of-type(8) i{background-position-y: -1008px}
+.course li:last-of-type i{background-position-y: -1152px}
+
+.course li div{
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 330px;
+    height: 168px;
+    background: #90c166;
+    text-align: left;
+    padding: 34px 21px 35px 20px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: all 1s;
+}
+.course li:nth-of-type(2n) div{
+    background: #fa9634;
+}
+.course li div:hover{
+    opacity: 1;
+}
+.course li div h3{
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 9px;
+}
+.course li div a{
+    color: #fff;
+    text-decoration: none;
+}
+.course li div p{
+    line-height: 22px;
+    font-size: 12px;
+}
+
+
+
+/*---------------------课程设置 结束------------------------*/
+
+/*---------------------校园风采 开始------------------------*/
+.school{
+        margin-bottom: 16px;
+}
+.school h2{
+    margin: 60px 0 42px;
+}
+.school figure{
+    margin: 0 50px 45px 0;
+    width: 300px;
+}
+.school figure img{
+    margin-bottom: 21px;
+}
+.school figure:last-of-type{margin-right: 0}
+.school figcaption a{text-decoration: none}
+.school figcaption{
+    width: 300px;
+}
+.school figcaption:last-of-type{
+    margin-right: 0;
+}
+.school figcaption img{
+    margin-bottom: 20px;
+}
+.school figcaption h3{
+    font-size: 16px;
+    margin-bottom: 7px;
+    color: #333;
+    transition: 1s;
+}
+.school figcaption h3:hover{
+    color: #fa9634;
+}
+.school figcaption p{
+    font-size: 13px;
+    color: #888888;
+}
+
+/*---------------------校园风采 结束------------------------*/
+
+/*---------------------明星学子 开始------------------------*/
+.star{
+    margin-bottom: 20px;
+}
+.star a,.star a:hover{text-decoration: none}
+.star h2{
+   margin:42px 0;
+}
+.star figure{
+
+    width: 244px;
+    height: 200px;
+    margin:0 8px 8px 0;
+    box-sizing: border-box;
+    position: relative;
+
+}
+.star figure:nth-of-type(4n){
+    margin-right: 0;
+}
+
+.star figcaption{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(119,197,45,.8);
+    width: 244px;
+    height: 200px;
+    opacity: 0;
+    transition: all 2s;
+    padding-top: 34px;
+    box-sizing: border-box;
+}
+.star figcaption:hover{opacity: 1}
+.star figcaption p{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 36px;
+
+}
+.star figcaption p:last-of-type{
+        font-size: 24px;
+}
+
+
+
+/*---------------------明星学子 结束------------------------*/
+
+/*---------------------学员作品 开始------------------------*/
+.production{
+    margin-bottom: 20px;
+}
+.production h2{
+   margin: 42px 0 41px;
+}
+.production figure{
+    margin: 0;
+    width: 200px;
+    height: 200px;
+    position: relative;
+
+}
+.production figcaption{
+   opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background: rgba(245,151,64,.8);
+    text-align: center;
+    padding-top: 46px;
+    box-sizing: border-box;
+    transition: all 2s;
+}
+.production figure:hover figcaption{
+    opacity: 1;
+}
+.production figcaption a{
+    color: #fff;
+    text-decoration: none;
+}
+.production figcaption h3{
+    font-size: 24px;
+    margin-bottom: 22px;
+}
+.production figcaption p{font-size: 16px}
+.production figcaption p:first-of-type{
+    margin-bottom: 28px;
+
+}
+
+/*---------------------学员作品 结束------------------------*/
+
+/*---------------------就业单位 开始------------------------*/
+
+.job{
+    margin-bottom: 95px;
+
+}
+.job h2{
+   /*line-height: 70px;*/
+    margin: 41px 0;
+
+}
+.job table{
+    width: 100%;
+}
+.job tr{
+    margin-bottom: 8px;
+}
+.job td i{
+    display: block;
+    width: 158px;
+    height: 58px;
+    border: 1px solid #d5d5d5;
+    background: url("../img/job.png") no-repeat;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    margin-right: 10px;
+}
+.job td{
+    position: relative;
+}
+.job td:after{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    right: 10px;
+    bottom: 8px;
+    border: 12px solid #dddddd;
+    border-top-color: transparent;
+    border-left-color: transparent;
+}
+.job .one td:nth-of-type(2) i{
+    background-position: 0 -80px;
+}
+.job .one td:nth-of-type(3) i{background-position-y: -160px}
+.job .one td:nth-of-type(4) i{background-position-y: -240px}
+.job .one td:nth-of-type(5) i{background-position-y: -320px}
+.job .one td:last-of-type i{background-position-y: -400px}
+
+.job .two td:first-of-type i{background-position-y: -480px}
+.job .two td:nth-of-type(2) i{background-position-y: -560px}
+.job .two td:nth-of-type(3) i{background-position-y: -640px}
+.job .two td:nth-of-type(4) i{background-position-y: -720px}
+.job .two td:nth-of-type(5) i{background-position-y: -800px}
+.job .two td:last-of-type i{background-position-y: -880px}
+
+.job .three td:first-of-type i{background-position-y: -960px}
+.job .three td:nth-of-type(2) i{background-position-y: -1040px}
+.job .three td:nth-of-type(3) i{background-position-y: -1120px}
+.job .three td:nth-of-type(4) i{background-position-y: -1200px}
+.job .three td:nth-of-type(5) i{background-position-y: -1280px}
+.job .three td:last-of-type i{background-position-y: -1360px}
+/*---------------------就业单位 结束------------------------*/
+
+/*返回顶部*/
+.to-top {
+    display: none;
+    width: 50px;
+    height: 50px;
+    background: url("../../img/top.png") no-repeat;
+}

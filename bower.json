@@ -1,0 +1,24 @@
+{
+  "name": "xiangmu",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "heshuqing <420158552@qq.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "angular": "angularjs#^1.6.8",
+    "angular-ui-router": "ui-router#0.4.2",
+    "angular-validation": "^1.4.4",
+    "angular-cookies": "^1.6.8"
+  }
+}
